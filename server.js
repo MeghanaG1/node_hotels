@@ -14,7 +14,7 @@ app.get('/',function(req,res){
 // POST route to add a person
 
  //import the router files
- const personRoutes = require('./routes/personroutes');
+ const personRoutes = require('./routes/personRoutes');
  const menuItemRoutes = require('./routes/menuItemRoutes');
 //use the routers
  app.use('/person',personRoutes);
